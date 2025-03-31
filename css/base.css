@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%vh;
+}
+
+/*barra nav*/
+
+.cabezera{
+    background: rgba(255, 255, 255, 0.712);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 100;
+    position: fixed;
+    box-shadow: 5px 5px 8px rgb(97, 97, 97);
+}
+
+.cont_barra_nav{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+
+.barra_nav{
+    position: relative;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.link_nav{
+    width: 8rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.link{
+    position: relative;
+    letter-spacing: 2px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.link:hover{
+    color: rgb(0, 0, 0);
+    transition: .2s all ease;
+    border-bottom: 2px solid black;
+}
+
+/*Contenedor principal*/
+
+.cont_principal{
+    width: 100%vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*inicio*/
+
+.cont_inicio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(rgba(230,233,255),rgba(165,175,255));
+    align-items: center;
+    justify-content: center;
+}
+
+.Cont_imagen{
+    width: 600px;
+    max-width: 633px;
+    height: 100vh;
+}
+
+.ImagenLogotipo{
+    width: 500px;
+    margin-top: 100px;
+}
+
+.ImagenIni{
+    width: 400px;
+    margin-left: 150px;
+    margin-top: -85px;
+}
+
+.Cont_Info{
+    width: 600px;
+    max-width: 633px;;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Descripcion{
+    font-family: Ubuntu;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(36, 42, 112);
+}
+
+.TituloSec{
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(36, 42, 112);;
+}
+
+
+/*Producto*/
+
+.cont_productos{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(245,245,245),rgba(186,186,186));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Titulo{
+    font-family: Ubuntu;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(112, 112, 112);
+}
+
+.Cont_Tarjetas{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Margentarjeta{
+    width: 290px;
+    height: 480px;
+    margin: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta{
+    width: 276px;
+    height: 380px;
+    border-radius: 42px;
+    box-shadow: 5px 5px 8px rgb(143, 143, 143);
+    object-fit: cover;
+}
+
+.tarjeta:hover{
+    box-shadow: 0px 0px 11px rgb(0, 0, 0);
+    width: 285px;
+    height: 390px;transition: .2s ease;
+}
+
+.no1{
+    background: url("/imagenes/Producto1.png");
+    background-position: center;
+    background-size: 580px;
+}
+
+.no2{
+    background: url("/imagenes/Producto2.png");
+    background-position: center;
+    background-size: 380px;
+}
+
+.no3{
+    background: url("/imagenes/Producto3.png");
+    background-position: center;
+    background-size: 300px;
+}
+
+.imagenTarjeta{
+    width: 276px;
+}
+
+.Titulo_tarjeta{
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(99, 0, 0);
+    margin: 20px 0px;
+}
+
+
+/*Encuentranos*/
+
+.cont_contactanos{
+    width: 100%;
+    height: 580px;
+    background: linear-gradient(rgba(255,239,239),rgba(1255,197,197));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contInfoFin{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contVideo{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContInfoFinPre{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(162, 0, 0);
+}
+
+.Presentacion_alumno{
+    margin: .5rem;
+    font-family: Ubuntu;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(162, 0, 0);
+}
+
+/*Pie de pagina*/
+
+.Pie_pagina{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_Creado{
+    font-family: Ubuntu;
+    font-weight: bold;
+    color:  rgb(112, 112, 112);
+}
+
